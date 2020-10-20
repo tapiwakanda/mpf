@@ -1,7 +1,7 @@
 import React from 'react';
-import MenuBar from './components/Layouts/MenuBar'
+import MenuBar from './Components/Layouts/MenuBar'
 import { Grid } from '@material-ui/core';
-import TopNavBar from './components/Layouts/TopNavBar'
+import TopNavBar from './Components/Layouts/TopNavBar'
 
 import { BrowserRouter } from 'react-router-dom'
 

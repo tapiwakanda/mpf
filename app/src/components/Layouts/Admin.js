@@ -2,8 +2,8 @@ import { Button, Container, TextField } from '@material-ui/core';
 import { BrowserRouter } from 'react-router-dom'
 import React from 'react';
 import { Grid } from '@material-ui/core';
-import MenuBar from './components/Layouts/MenuBar';
-import TopNavBar from './components/Layouts/TopNavBar'
+import MenuBar from './Components/Layouts/MenuBar';
+import TopNavBar from './Components/Layouts/TopNavBar'
 
 function Admin(){
     return(

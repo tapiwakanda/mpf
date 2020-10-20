@@ -1,7 +1,7 @@
 import React from 'react';
 import Login from './Login'
 import Dashboard from './Dashboard'
-import Admin from './components/Layouts/Admin'
+import Admin from './Components/Layouts/Admin'
 import { BrowserRouter, Route, Switch } from 'react-router-dom'
 
 function App() {
