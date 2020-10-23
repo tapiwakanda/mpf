@@ -64,7 +64,7 @@ export default {
       children: [
         {
           name: 'Add Users',
-          url: '/AddUsers',
+          url: '/AddNewUsers',
         },
       ],
     },

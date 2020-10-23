@@ -10,12 +10,12 @@ function Dashboard() {
   return (
     <div className="Dashboard">
         <Grid container style={{minHeight:'100vh'}}>
-          <Grid item xs={12} sm={2}>
+          <Grid item xs={12} sm={3}>
             <BrowserRouter>
             <MenuBar/>
             </BrowserRouter>
           </Grid>
-          <Grid item xs={12} sm={10}>
+          <Grid item xs={12} sm={9}>
             <TopNavBar />
           </Grid>
         </Grid>
