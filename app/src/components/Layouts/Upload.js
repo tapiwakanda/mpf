@@ -1,10 +1,10 @@
 import React from 'react';
 import MenuBar from './MenuBar';
 import TopNavBar from './TopNavBar'
-import MainContent from './MainContent' 
 //import { Button, Container, TextField } from '@material-ui/core';
 import { BrowserRouter } from 'react-router-dom'
 import { Grid } from '@material-ui/core'; 
+import UploadPolicies from './UploadPolicies';
 
 
 function Admin(){
@@ -18,7 +18,7 @@ function Admin(){
                 </Grid>
                 <Grid item xs={12} sm={9}>
                     <TopNavBar />
-                    <MainContent />
+                    <UploadPolicies />
                 </Grid>
             </Grid>
         </div>

@@ -77,6 +77,7 @@ const MenuBar = (props) => {
       open={true}
       variant='persistent'
     >
+      <h2 style={{color: '#009677', marginLeft: '25px', marginTop: '-5px'}}>Dashboard</h2>
       <List {...rest} className={clsx(classes.root, className)}>
         {handleMenu(menuItems.data)}
       </List>

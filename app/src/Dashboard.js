@@ -1,5 +1,5 @@
 import React from 'react';
-import MenuBar from './Components/Layouts/MenuBar'
+import MenuBar from './Components/Layouts/MenuBar' 
 import { Grid } from '@material-ui/core';
 import TopNavBar from './Components/Layouts/TopNavBar'
 
@@ -10,12 +10,12 @@ function Dashboard() {
   return (
     <div className="Dashboard">
         <Grid container style={{minHeight:'100vh'}}>
-          <Grid item xs={12} sm={3}>
+          <Grid item style={{minWidth: '18vw', float: 'left'}}>
             <BrowserRouter>
             <MenuBar/>
             </BrowserRouter>
           </Grid>
-          <Grid item xs={12} sm={9}>
+          <Grid item style={{width: '176vh', float: 'right'}}>
             <TopNavBar />
           </Grid>
         </Grid>

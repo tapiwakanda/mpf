@@ -22,7 +22,7 @@ export default {
       children: [
         {
           name: 'Upload Batch',
-          url: '/Upload',
+          url: '/AddNewBatch',
         },
         {
           name: 'Edit Policy',
@@ -65,6 +65,14 @@ export default {
         {
           name: 'Add Users',
           url: '/AddNewUsers',
+        },
+        {
+          name: 'User Audit Trail',
+          url: '/UserAuditTrail',
+        },
+        {
+          name: 'User Management',
+          url: '/UserManagement',
         },
       ],
     },
