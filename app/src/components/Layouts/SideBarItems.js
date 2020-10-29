@@ -25,7 +25,7 @@ export default {
           url: '/AddNewBatch',
         },
         {
-          name: 'Edit Policy',
+          name: 'Ammend Policy',
           url: '/EditPolicy',
         },
         {
@@ -57,7 +57,20 @@ export default {
     },
     {
       name: 'Communication',
-      url: '/Communication',
+      children: [
+        {
+          name: 'SMS',
+          url: '/sms',
+        },
+        {
+          name: 'WhatsApp',
+          url: '/whatsapp',
+        },
+        {
+          name: 'Email',
+          url: '/email',
+        },
+      ],
     },
     {
       name: 'Admin',

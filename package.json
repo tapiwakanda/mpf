@@ -2,6 +2,8 @@
   "dependencies": {
     "@material-ui/core": "^4.11.0",
     "axios": "^0.21.0",
-    "create-react-app": "^3.4.1"
+    "create-react-app": "^3.4.1",
+    "material-ui-chip-input": "^2.0.0-beta.2",
+    "react-select-plus": "^1.0.0-rc.3.patch12"
   }
 }

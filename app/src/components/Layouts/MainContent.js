@@ -2,11 +2,12 @@ import React, { Component } from 'react'
 import axios from 'axios'
 import { Button, TextField } from '@material-ui/core';
 import Container from '@material-ui/core/Container';
+import Permissions from './Permissions'
 //import { Grid } from '@material-ui/core';
 
 class MainContent extends Component {
     constructor (props){
-        super(props);
+        super(props); 
         this.state = {
             name: '',
             surname: '',
@@ -42,12 +43,12 @@ class MainContent extends Component {
     }
     render(){
         return (
-            <div className='MainContent'>
+            <div className='MainContent' style={{width: '1000'}}>
                 <Container
                     alignItems= 'center' 
                     direction= 'column' 
                     justify= 'space-between'
-                    style={{padding: 5}} 
+                    style={{padding: 15, paddingLeft: 45}} 
                 >
                     <div style={{
                         display: 'flex', 
@@ -56,11 +57,12 @@ class MainContent extends Component {
                         minWidth: 300
                     }}>
                     <h1 style={{color: '#009677'}}>Add New User</h1>
-                    <form onSubmit={this.handleSubmit}>
+                    <form onSubmit={this.handleSubmit} >
                     <TextField variant='outlined' label="Name" value={this.state.name} margin='normal' onChange={this.handleChange('name')}></TextField>
                     <TextField variant='outlined' label="Surname" value={this.state.surname} margin='normal' onChange={this.handleChange('surname')}></TextField>
                     <TextField variant='outlined' label="Staff Code" value={this.state.staffCode} margin='normal' onChange={this.handleChange('staffCode')}></TextField>
-                    <TextField variant='outlined' label="Permissions" value={this.state.permissions} margin='normal' onChange={this.handleChange('permissions')} ></TextField>
+                    <Permissions />
+                    {/* <TextField variant='outlined' label="Permissions" value={this.state.permissions} margin='normal' onChange={this.handleChange('permissions')} ></TextField><br /> */}
                     <Button onClick={e => this.handleSubmit(e)} variant='contained' style={{backgroundColor: '#009677', margin: '20px'}}>Add New User</Button>
                     </form>
                     </div>      

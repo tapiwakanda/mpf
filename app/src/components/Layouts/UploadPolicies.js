@@ -10,7 +10,7 @@ export default function UploadPolicies() {
                 alignItems= 'center' 
                 direction= 'column' 
                 justify= 'space-between'
-                style={{padding: 5}} 
+                style={{padding: 15, paddingLeft: 45}} 
             >
                 <div style={{
                     display: 'flex',
